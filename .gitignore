@@ -125,8 +125,8 @@ pyvenv.cfg
 
 
 # Automation Scripts
-backend/automation_scripts
-backend/automation_scripts/*
+automation_scripts
+automation_scripts/*
 
 
 # Excluding the build.sh file. I think it is causing the deployment failure
