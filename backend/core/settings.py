@@ -168,7 +168,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Add apps to sys.path for easier imports
 # This is to enable importing of installed apps in the apps folder to the project
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'apps'))
+# sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'apps'))
 
 
 # Rest Framework settings
