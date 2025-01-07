@@ -12,7 +12,7 @@ from rest_framework.viewsets import ModelViewSet
 from typing import Any
 
 class todoView(ModelViewSet):
-    permission_classes = [IsAuthenticated]
+    # permission_classes = [IsAuthenticated]
     queryset = DjTodo.objects.all()
     serializer_class = DjTodoSerializer
     http_method_names = ['get', 'post', 'delete']

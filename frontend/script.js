@@ -1,0 +1,1 @@
+const API_URL_ENDPOINT = 'https://localhost:5001/api/';
